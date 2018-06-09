@@ -12,7 +12,7 @@ int main()
     int i;
     
     scanf("%d",&i);
-    if (i > 0 && i <8) 
+    if (i > 0 && i < 8) 
     {
         printf("%s",returnday(i, week));
     }
