@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-const char *week[7] = {"Pn","Wt","Sr","Cz","Pt","So","Nd"};
+const char* week[7] = {"Pn","Wt","Sr","Cz","Pt","So","Nd"};
 
-char *returnday(int x, char *week[])
+char* returnday(int x, char* week[])
 {
     return week[x-1];
 }
