@@ -12,6 +12,11 @@ int main()
     int i;
     
     scanf("%d",&i);
-    printf("%s",returnday(i, week));
+    if (i > 0 && i <8) 
+    {
+        printf("%s",returnday(i, week));
+    }
+    else printf ("Wrong data input");
+    
     return 0;
 }
